@@ -1,0 +1,4 @@
+{"id":"travel-allowance-current","persona":"general_staff","mode":"chat","question":"How much is the daily allowance for local official travel?","expect":{"found":true,"documents":["2024-03"],"warning":true,"answer_contains":["1,500"]}}
+{"id":"travel-order-lead-time","persona":"program_manager","mode":"chat","question":"How many working days before the trip must the travel order be approved, and by whom?","expect":{"found":true,"documents":["2024-03"],"answer_contains":["five"]}}
+{"id":"not-in-corpus","persona":"general_staff","mode":"chat","question":"How many days of paternity leave can I take?","expect":{"found":false}}
+{"id":"scenario-workshop","persona":"program_manager","mode":"scenario","question":"We will send four staff to a 3-day workshop in Baguio starting next Monday. The travel order is not yet filed. Can we proceed?","expect":{"found":true,"documents":["2024-03"],"checklist_min":1}}
