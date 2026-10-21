@@ -43,7 +43,5 @@ next-env.d.ts
 # local data (PGlite database, locally stored uploads)
 /.data/
 
-# generated at install/build time
-/public/pdf.worker.min.mjs
 
 !.env.example

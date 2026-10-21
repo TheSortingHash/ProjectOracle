@@ -14,7 +14,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Original artifact prototype, kept verbatim for reference.
     "reference/**",
-    // Generated / local data.
+    // Vendored PDF.js worker and local data.
     "public/pdf.worker.min.mjs",
     ".data/**",
   ]),
